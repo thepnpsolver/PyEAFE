@@ -8,9 +8,9 @@ setup(
     name="pyeafe",
     version=__version__,
     description="Edge-Averaged Finite Elements (EAFE) for FENiCS",
-    url="https://thepnpsolver.github.io",
+    url="https://pdelab.github.io",
     author="The PNP Solver",
-    author_email="thepnpsolver@gmail.com",
+    author_email="thepdelab@gmail.com",
     license="MIT License",
     packages=["pyeafe"],
     zip_safe=False,
@@ -19,5 +19,5 @@ setup(
     long_description_content_type="text/markdown",
     setup_requires=["pytest-runner", "flake8"],
     tests_require=["pytest"],
-    project_urls={"Source Code": "https://github.com/thepnpsolver/pyeafe"},
+    project_urls={"Source Code": "https://github.com/pdelab/pyeafe"},
 )
